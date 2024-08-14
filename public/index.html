@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0;
+        background-color: gainsboro;
+      }
+
+      .table-container {
+        margin: 20px;
+        padding: 20px;
+        border-radius: 5px;
+        background-color: white;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        color: red;
+      }
+
+      th {
+        height: 30px;
+      }
+
+      td {
+        text-align: center;
+      }
+
+      .button-edit {
+        background-color: green;
+        color: white;
+        border: 0px;
+        border-radius: 3px;
+      }
+
+      .button-edit:hover {
+        background-color: greenyellow;
+      }
+
+      .button-delete {
+        background-color: red;
+        color: white;
+        border: 0px;
+        border-radius: 3px;
+      }
+
+      .button-delete:hover {
+        background-color: tomato;
+      }
+
+      form {
+        border: 1px solid gray;
+        padding: 10px;
+        background-color: aquamarine;
+      }
+
+      input {
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="table-container">
+      <h2>All Photo</h2>
+      <form>
+        <label>Id</label>
+        <input id="id" /><br />
+        <label>Title</label>
+        <input id="title" /><br />
+        <label>Body</label>
+        <input id="body" /><br />
+      </form>
+      <table id="table-photo"></table>
+    </div>
+    <script src="js/fetch-data.js"></script>
+  </body>
+</html>
