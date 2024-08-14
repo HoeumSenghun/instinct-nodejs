@@ -1,0 +1,17 @@
+Final Project
+
+duration a week 22.August
+
+top: free => dynamic website
+            JavaScript/Jquery
+            Bootstrap/Css
+            Html
+
+            Node Js
+            MySQL
+    
+Folder Project: firstname_lastname_final_project
+            image:
+            CSS:
+            Js:
+            
